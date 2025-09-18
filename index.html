@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head> <!-- Bootstrap CSS File --> <!-- Libraries CSS Files --> 
-    <link href="font-awesome1.min.css" rel="stylesheet" /> 
-    <link href="animate.min.css" rel="stylesheet" /> 
-    <link href="ionicons.min.css" rel="stylesheet" /> 
+  <head>
+    <!-- Bootstrap CSS File -->
+
+    <!-- Libraries CSS Files -->
+    <link href="font-awesome1.min.css" rel="stylesheet" />
+    <link href="animate.min.css" rel="stylesheet" />
+    <link href="ionicons.min.css" rel="stylesheet" />
     <link href="owl.carousel.min.css" rel="stylesheet" />
-    <link href="lightbox.min.css" rel="stylesheet" /> 
-    <!-- Main Stylesheet File --> 
+    <link href="lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
     <link href="style.css" rel="stylesheet" />
-    <!-- meta data --> 
-    <meta charset="utf-8" /> 
+    <!-- meta data -->
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <!--font-family-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet" /> 
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+      rel="stylesheet"
+    />
+
     <!-- title of site -->
     <title>Ameny Elokb</title>
-    <!-- For favicon png --> 
-    <link rel="shortcut icon" type="image/icon" href="A.png" /> 
+
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="A.png" />
+
     <!--font-awesome.min.css-->
-    <link rel="stylesheet" href="font-awesome.min.css" /> 
-    <!--flat icon css--> 
+    <link rel="stylesheet" href="font-awesome.min.css" />
+
+    <!--flat icon css-->
     <link rel="stylesheet" href="flaticon.css" />
+
     <!--animate.css-->
-    <link rel="stylesheet" href="animate.css" /> 
+    <link rel="stylesheet" href="animate.css" />
+
     <!--owl.carousel.css-->
     <link rel="stylesheet" href="owl.carousel.min.css" />
     <link rel="stylesheet" href="owl.theme.default.min.css" />
-    <!--bootstrap.min.css--> 
-    <link rel="stylesheet" href="bootstrap.min.css" /> 
-    <!-- bootsnav --> 
-    <link rel="stylesheet" href="bootsnav.css" /> 
-    <!--style.css--> 
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="bootsnav.css" />
+
+    <!--style.css-->
     <link rel="stylesheet" href="style1.css" />
-    <!--responsive.css--> 
+
+    <!--responsive.css-->
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
-    <!-- HEADER -->
+    <!-- top-area Start -->
     <header class="top-area">
       <div class="header-area">
+        <!-- Start Navigation -->
         <nav
           class="navbar navbar-default bootsnav navbar-fixed dark no-background"
         >
           <div class="container">
+            <!-- Start Header Navigation -->
             <div class="navbar-header">
               <button
                 type="button"
@@ -56,268 +80,825 @@
               >
                 <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand" href="index.html">
-                <img
+              <a class="navbar-brand" href="index.html"
+                ><img
                   src="logo.png"
                   style="max-width: 10em; max-height: 10em; padding-top: 50px"
-                />
-              </a>
+              /></a>
             </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div
               class="collapse navbar-collapse menu-ui-design"
               id="navbar-menu"
             >
-              <ul class="nav navbar-nav navbar-right">
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="smooth-menu active"></li>
                 <li class="smooth-menu"><a href="#about">About me</a></li>
                 <li class="smooth-menu"><a href="#education">Education</a></li>
-                <li class="smooth-menu"><a href="#experience">Experience</a></li>
-                <li class="smooth-menu"><a href="#service">Services</a></li>
+                <li class="smooth-menu">
+                  <a href="#experience">Experience</a>
+                </li>
+                <li class="smooth-menu"><a href="#portfolio">Portfolio</a></li>
+                <li class="smooth-menu">
+                  <a class="nav-link js-scroll" href="#service">Services</a>
+                </li>
                 <li class="smooth-menu"><a href="#contact">Contact</a></li>
               </ul>
+              <!--/.nav -->
             </div>
+            <!-- /.navbar-collapse -->
           </div>
+          <!--/.container-->
         </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
       </div>
+      <!--/.header-area-->
+
       <div class="clearfix"></div>
     </header>
+    <!-- /.top-area-->
+    <!-- top-area End -->
 
-    <!-- HERO -->
+    <!--welcome-hero start -->
     <section id="welcome-hero" class="welcome-hero">
-      <div class="container text-center">
-        <div class="header-text">
-          <h2>
-            hi <span>,</span> I am <br />Ameny <br />Elokb <span>.</span>
-          </h2>
-          <p>Software Engineer | Web & Mobile Developer</p>
-          <a href="CV Ameny Elokb.pdf" target="_blank" download
-            >download CV</a
-          >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="header-text">
+              <h2>
+                hi <span>,</span> I am <br />
+                Ameny <br />
+                Elokb <span>.</span>
+              </h2>
+              <p>Software Engineer</p>
+              <a href="CV Ameny Elokb.pdf" target="”_blank”" download
+                >download CV</a
+              >
+            </div>
+            <!--/.header-text-->
+          </div>
+          <!--/.col-->
         </div>
+        <!-- /.row-->
       </div>
+      <!-- /.container-->
     </section>
+    <!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
-    <!-- ABOUT -->
+    <!--about start -->
     <section id="about" class="about">
       <div class="section-heading text-center">
         <h2>about me</h2>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="single-about-img text-center">
-              <img src="profile_image.png" alt="profile_image" />
-              <div class="about-list-icon">
-                <ul>
-                  <li>
-                    <a href="https://github.com/amenyelokb7" target="_blank"
-                      ><i class="fa fa-github"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/ameny-elokb-4317a81a0/"
-                      target="_blank"
-                      ><i class="fa fa-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/ameny.elokb/?hl=fr"
-                      target="_blank"
-                      ><i class="fa fa-instagram"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-7">
-            <div class="single-about-txt">
-              <h3>
-                I am an energetic and ambitious individual with a strong
-                foundation in software engineering and business intelligence. My
-                experience spans developing scalable e-learning platforms,
-                real-time ERP systems, and modern web/mobile applications using
-                Laravel, React, and Node.js.
-              </h3>
-              <div class="row">
-                <div class="col-sm-6">
-                  <h4>phone</h4>
-                  <p>+216 50 779 969</p>
-                </div>
-                <div class="col-sm-6">
-                  <h4>email</h4>
-                  <p>amenyelokb@gmail.com</p>
-                </div>
-              </div>
-              <h3>Skills</h3>
-              <ul class="list-inline">
-                <li>JavaScript</li>
-                <li>Laravel</li>
-                <li>ReactJS</li>
-                <li>TypeScript</li>
-                <li>NodeJS</li>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>Scrum</li>
+      <div class="col-sm-offset-1 col-sm-5">
+        <div class="single-about-img">
+          <img src="profile_image.png" alt="profile_image" />
+          <br /><br /><br /><br />
+          <center>
+            <div class="about-list-icon">
+              <ul>
+                <li>
+                  <a href="https://github.com/amenyelokb7/" target="_blank">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/amenyelokb/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <!-- / li -->
+
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ameny-elokb-4317a81a0/"
+                    target="_blank"
+                  >
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <!-- / li -->
+                <li>
+                  <a
+                    href="https://www.instagram.com/ameny.elokb/?hl=fr"
+                    target="_blank"
+                  >
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <!-- / li -->
               </ul>
+              <!-- / ul -->
             </div>
+            <!-- /.about-list-icon -->
+          </center>
+        </div>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-about-txt">
+                <h3>
+                  I am an energetic and ambitious individual with a mature and
+                  responsible approach to every task I undertake or situation I
+                  encounter. As a graduate with a bachelor's degree in Business
+                  Intelligence and a software engineer, I have developed strong
+                  skills in web development. My experience has equipped me with
+                  a robust foundation to tackle diverse challenges and
+                  consistently deliver high-quality results.
+                </h3>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>phone</h3>
+                      <p>+216 50 779 969</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>email</h3>
+                      <p>amenyelokb@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget-tags">
+                  <h2 id="skills" style="font-size: 2em">skills</h2>
+                  <br />
+                  <ul>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">JavaScript</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">Laravel</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">NodeJS</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">ReactJS</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">Typescript</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">Python</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">PHP</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">SQL</a>
+                    </li>
+                    <li style="background-color: #d92cf9">
+                      <a href="#">GraphQL</a>
+                    </li>
+
+                    <br />
+                    <li style="background-color: #d92cf9">
+                      <a href="#">Processus Unifié / Scrum</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
           </div>
         </div>
       </div>
     </section>
+    <!--/.about-->
+    <!--about end -->
 
-    <!-- EDUCATION -->
+    <!--education start -->
     <section id="education" class="education">
       <div class="section-heading text-center">
         <h2>education</h2>
       </div>
       <div class="container">
-        <div class="row text-center">
-          <div class="col-sm-6">
-            <h4>2021 - 2024</h4>
-            <p>Engineering Degree in Computer Science</p>
-            <h5>Polytechnic School of Sousse</h5>
-          </div>
-          <div class="col-sm-6">
-            <h4>2019 - 2021</h4>
-            <p>Bachelor’s Degree in IT Applied to Management</p>
-            <h5>Higher Institute of Management, Sousse</h5>
+        <div class="education-horizontal-timeline">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2021 - Present</h2>
+                  <h3>Software engineering</h3>
+                </div>
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">Polytechnic school of Sousse</h4>
+                    <h5>Sousse</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2018 - 2021</h2>
+                  <h3>bachelor degree in business intelligence</h3>
+                </div>
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">ISG Sousse</h4>
+                    <h5>Sousse</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
           </div>
         </div>
       </div>
     </section>
+    <!--/.education-->
+    <!--education end -->
 
-    <!-- EXPERIENCE -->
+    <!--experience start -->
     <section id="experience" class="experience">
       <div class="section-heading text-center">
-        <h2>experience & projects</h2>
+        <h2>experience</h2>
       </div>
       <div class="container">
-        <div class="timeline">
-          <div class="timeline-item">
-            <h4>Software Engineer – Abajim (07/2024 – Present)</h4>
-            <p>
-              Engineered a scalable e-learning social platform with interactive
-              3D books, quizzes, and live meetings. Built a video processing
-              pipeline with FFmpeg & HLS, integrated AWS S3 storage, and created
-              a React.js + TypeScript interface with draggable video/quiz icons
-              for immersive learning.
-            </p>
+        <div class="experience-content">
+          <div class="main-timeline">
+            <ul>
+              <!-- Abajim -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>July 2024 – Present</h2>
+                        <h3>Software Engineer</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            Abajim
+                          </h4>
+                          <h5>Sousse, Tunisia</h5>
+                          <p class="description">
+                            Built a scalable e-learning social platform with interactive 3D books, courses, quizzes,
+                            and live meetings. Implemented a video pipeline (FFmpeg + HLS) using Laravel Jobs/queues and
+                            S3-compatible storage for large media. Created a React + TypeScript UI with draggable icons
+                            to attach videos/quizzes inside books; focused on responsive UI and smooth streaming.
+                            <br/><strong>Technologies:</strong> Laravel | MySQL | FFmpeg | HLS | S3 | ReactJS | TypeScript | MUI
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- SmartLearn -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>Freelance</h2>
+                        <h3>Software Engineer</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            SmartLearn – AI-Powered E-Learning
+                          </h4>
+                          <h5>Remote</h5>
+                          <p class="description">
+                            Designed an AI-driven platform that recommends learning paths by style/level. Built a
+                            dashboard with real-time learner analytics and progress insights.
+                            <br/><strong>Technologies:</strong> Python | Laravel | ReactJS | TypeScript | MySQL
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- ProjectWaste -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>Freelance</h2>
+                        <h3>Full-Stack Developer</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            ProjectWaste – Real-Time Delivery ERP
+                          </h4>
+                          <h5>Remote</h5>
+                          <p class="description">
+                            Developed a logistics ERP with real-time route tracking, delivery assignment, and socket-based
+                            communications between agents and coordinators.
+                            <br/><strong>Technologies:</strong> Node.js | ReactJS | TypeScript | MongoDB
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Anypli -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>February 2024 - May 2024</h2>
+                        <h3>Web developer intern</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            Anypli – Learnado (Online Learning)
+                          </h4>
+                          <h5>Sousse, Tunisia</h5>
+                          <p class="description">
+                            Full platform build with Stripe payments, real-time messaging/notifications, Mapbox for
+                            locations, and Google API SMTP for email. Managed nested objects and responsive UI.
+                            <br/><strong>Technologies:</strong> Laravel | ReactJS | Redux | TypeScript | RTK Query | MUI | Stripe | Mapbox | Docker | Jira | BitBucket
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Codact -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>June 2023 - August 2023</h2>
+                        <h3>Web developer intern</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            Codact Solutions – ASHTRAY
+                          </h4>
+                          <h5>Sousse, Tunisia</h5>
+                          <p class="description">
+                            Built a web app enabling a robot to autonomously publish ads in a café. Added a Babylon.js
+                            3D café preview, Google Maps for locations, SMTP notifications.
+                            <br/><strong>Technologies:</strong> Laravel | MySQL | JavaScript | jQuery | HTML | CSS | Bootstrap | Babylon.js | Google Map API | Google Mail API SMTP
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- AstroNet -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>June 2022 - July 2022</h2>
+                        <h3>Web developer intern</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            AstroNet – CRM Module (Stock)
+                          </h4>
+                          <h5>Sousse, Tunisia</h5>
+                          <p class="description">
+                            Created a CRM module for barcode-based stock management and fast product checks.
+                            <br/><strong>Technologies:</strong> Laravel | JavaScript | jQuery | Bootstrap 5 | Ajax | MySQL
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- CNRPS -->
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row" style="height: auto">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>February 2021 - May 2021</h2>
+                        <h3>Final year study project internship</h3>
+                      </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span><i class="fa fa-circle" aria-hidden="true"></i></span>
+                            CNRPS – ProTask
+                          </h4>
+                          <h5>Sousse, Tunisia</h5>
+                          <p class="description">
+                            Designed and built a web application for managing overpayments and task workflows.
+                            <br/><strong>Technologies:</strong> Laravel | PHP | JavaScript | jQuery | MySQL | Git | Jira
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
           </div>
-          <div class="timeline-item">
-            <h4>Freelance – SmartLearn (AI-Powered E-Learning)</h4>
-            <p>
-              Designed and developed an AI-driven platform recommending learning
-              paths based on user styles. Built a dynamic dashboard with
-              real-time analytics and educational metrics using Laravel, React,
-              and Python.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <h4>Freelance – ProjectWaste (Real-Time ERP Delivery)</h4>
-            <p>
-              Developed an ERP system for logistics with real-time route
-              tracking, delivery assignment, and socket-based agent
-              communication using Node.js, React, and MongoDB.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <h4>Intern – Anypli (02/2024 – 05/2024)</h4>
-            <p>
-              Built <strong>Learnado</strong>, an online learning platform with
-              Stripe payments, real-time messaging, Mapbox integration, and
-              Google API SMTP for notifications. Used Laravel, ReactJS,
-              TypeScript, and Docker.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <h4>Intern – Codact Solutions (06/2023 – 08/2023)</h4>
-            <p>
-              Developed <strong>Ashtray</strong>, a web app enabling a robot to
-              autonomously publish ads in cafés. Integrated Babylon.js 3D café
-              preview, Google Maps API, and SMTP notifications.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <h4>Intern – AstroNet (06/2022 – 07/2022)</h4>
-            <p>
-              Built a CRM stock management module with barcode scanning for
-              warehouse efficiency. Improved inventory control using Laravel,
-              Bootstrap, and Ajax.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <h4>Intern – CNRPS Sousse (02/2021 – 05/2021)</h4>
-            <p>
-              Designed <strong>ProTask</strong>, a web app for managing
-              overpayments and tasks. Delivered efficient workflows with
-              Laravel, PHP, and MySQL.
-            </p>
-          </div>
+          <!--.main-timeline-->
         </div>
+        <!--.experience-content-->
       </div>
     </section>
+    <!--/.experience-->
 
-    <!-- SERVICES -->
+    <!--/ Section Portfolio Star /-->
+    <!-- Converted to text-only cards using SAME classes; images/lightbox removed -->
+    <section id="portfolio" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h2 class="title-a">Projects</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- PolyTask -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 style="font-size: 20px" class="w-title">PolyTask</h2>
+                    <div style="font-size: 15px" class="w-more">
+                      <span class="w-ctegory">Description</span> :
+                      Task & overpayment management app built to streamline workflows and approvals.
+                      <br />
+                      <span class="w-ctegory">Technologies</span> :
+                      <div class="widget-tags">
+                        <ul>
+                          <li><a href="#">Laravel</a></li>
+                          <li><a href="#">PHP</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">MySQL</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="fa fa-check-circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ProTask -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 style="font-size: 20px" class="w-title">ProTask</h2>
+                    <div class="w-more" style="font-size: 15px">
+                      <span class="w-ctegory">Description</span> :
+                      Overpayment & task management for CNRPS Sousse; optimized data entry & tracking.
+                      <br />
+                      <span class="w-ctegory">Technologies</span> :
+                      <div class="widget-tags">
+                        <ul>
+                          <li><a href="#">Laravel</a></li>
+                          <li><a href="#">PHP</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">MySQL</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="fa fa-check-circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PolyVote -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 style="font-size: 20px" class="w-title">PolyVote</h2>
+                    <div style="font-size: 15px" class="w-more">
+                      <span class="w-ctegory">Description </span>:
+                      Voting app with secure ballot flows and real-time tally display.
+                      <br />
+                      <span class="w-ctegory">Technologies</span> :
+                      <div class="widget-tags">
+                        <ul>
+                          <li><a href="#">PHP</a></li>
+                          <li><a href="#">jQuery</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="fa fa-check-circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Finder -->
+          <div class="col-md-4">
+            <div class="work-box">
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 style="font-size: 20px" class="w-title">Finder</h2>
+                    <div style="font-size: 15px" class="w-more">
+                      <span class="w-ctegory">Description </span> :
+                      Listing & discovery tool with server-side search and simple CRUD.
+                      <br />
+                      <span class="w-ctegory">Technologies </span> :
+                      <div class="widget-tags">
+                        <ul>
+                          <li><a href="#">PHP</a></li>
+                          <li><a href="#">jQuery</a></li>
+                          <li><a href="#">NodeJS</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="fa fa-check-circle"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.row -->
+      </div>
+    </section>
+    <!--/ Section Portfolio End /-->
+
+    <!--/ Section Services Star /-->
     <section id="service" class="services-mf route">
       <div class="container">
-        <div class="section-heading text-center">
-          <h2>Services</h2>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <div class="section-heading text-center">
+                <h2>Services</h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row text-center">
+        <div class="row">
           <div class="col-md-4">
-            <i class="fa fa-code fa-3x"></i>
-            <h4>Web App Development</h4>
-            <p>Modern, scalable web applications tailored to your needs.</p>
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-laptop"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Design</h2>
+                <p class="s-description text-center">
+                  A web design service provides you with a customized website
+                  design that's perfect for your business or personal site.
+                </p>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <i class="fa fa-mobile fa-3x"></i>
-            <h4>Mobile App Development</h4>
-            <p>Cross-platform mobile apps with seamless user experience.</p>
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-code"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web App Development</h2>
+                <p class="s-description text-center">
+                  Web development services help create all types of web-based
+                  software and ensure great experience for web users.
+                </p>
+              </div>
+            </div>
           </div>
           <div class="col-md-4">
-            <i class="fa fa-cogs fa-3x"></i>
-            <h4>AI & Machine Learning</h4>
-            <p>Custom AI models and ML solutions for smarter systems.</p>
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-mobile"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Mobile App Development</h2>
+                <p class="s-description text-center">
+                  Our mobile app development services focus on creating
+                  innovative and user-friendly applications for various
+                  platforms, ensuring a seamless experience for your audience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-mobile"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Responsive Design</h2>
+                <p class="s-description text-center">
+                  Responsive web design provides solutions by making websites
+                  and applications smart enough to resize and adapt its content
+                  based on the screen size of the device.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-cogs"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Machine Learning & AI</h2>
+                <p class="s-description text-center">
+                  Our Machine Learning and Artificial Intelligence services
+                  leverage cutting-edge technologies to provide intelligent
+                  solutions for your business needs.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!--/ Section Services End /-->
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact">
-      <div class="container text-center">
-        <h2>Contact</h2>
-        <p>Sousse, Tunisia</p>
-        <p>+216 50 779 969</p>
-        <p>amenyelokb@gmail.com</p>
+    <div id="scroll-Top">
+      <div class="return-to-top">
+        <i class="fa fa-angle-up" id="scroll-top"></i>
       </div>
+    </div>
+    <section
+      id="contact"
+      class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(welcome-banner.jpg)"
+    >
+      <div class="overlay-mf"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">Get in Touch</h5>
+                    </div>
+                    <div class="more-info">
+                      <ul class="list-ico">
+                        <li>
+                          <span class="fa fa-map-marker"></span> Sousse, Tunisia
+                        </li>
+                        <li>
+                          <span class="fa fa-phone"></span> +216 50 779 969
+                        </li>
+                        <li>
+                          <span class="fa fa-envelope"></span>
+                          amenyelokb@gmail.com
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li>
+                          <a href="https://www.facebook.com/amenyelokb/"
+                            ><span class="ico-circle"
+                              ><i class="fa fa-facebook"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/ameny-elokb-4317a81a0/"
+                            ><span class="ico-circle"
+                              ><i class="fa fa-linkedin"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/ameny.elokb/?hl=fr"
+                            ><span class="ico-circle"
+                              ><i class="fa fa-instagram"></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!--/.col-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="copyright-box">
+                <p style="color: white" class="copyright">
+                  &copy; Copyright <strong>Ameny Elokb</strong>. All Rights
+                  Reserved
+                </p>
+                <div class="credits"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
 
-    <footer class="text-center">
-      <p>&copy; Copyright <strong>Ameny Elokb</strong>. All Rights Reserved</p>
-    </footer>
-
-    <!-- JS -->
-  <script src="jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="bootsnav.js"></script>
-  <script src="jquery.sticky.js"></script>
-  <script src="progressbar.js"></script>
-  <script src="jquery.appear.js"></script> 
-  <script src="owl.carousel.min.js"></script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> 
-  <script src="custom.js"></script> 
-  <script src="easing.min.js"></script> 
-  <script src="jquery.waypoints.min.js"></script> 
-  <script src="jquery.counterup.js"></script> 
-  <script src="owl.carousel.min.js"></script> 
-  <script src="lightbox.min.js"></script> 
-  <script src="typed.min.js"></script> 
-  <script src="contactform.js"></script> 
-  <script src="main.js"></script>
+    <!-- SCRIPTS (unchanged order/links) -->
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootsnav.js"></script>
+    <script src="jquery.sticky.js"></script>
+    <script src="progressbar.js"></script>
+    <script src="jquery.appear.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="custom.js"></script>
+    <script src="easing.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="lightbox.min.js"></script>
+    <script src="typed.min.js"></script>
+    <script src="contactform.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
